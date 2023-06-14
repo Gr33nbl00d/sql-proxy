@@ -1,3 +1,6 @@
+.idea
 /build
 /gradle
 .gradle
+dbconfig.json
+target

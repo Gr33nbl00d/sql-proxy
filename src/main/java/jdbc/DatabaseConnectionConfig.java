@@ -1,13 +1,13 @@
 package jdbc;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Map;
 
-@Getter
-@Setter
-public class Connection {
+@Data
+public class DatabaseConnectionConfig {
     private String username;
     private String password;
     private String host;
